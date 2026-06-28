@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VOID — Born of Future</title>
+  <meta name="description" content="A cinematic futuristic creative studio experience" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Syne:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+  <div class="cursor-pointer" id="cursorPointer" aria-hidden="true">
+    <svg class="cursor-pointer__svg" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 3L4 19L9 14L13 21L15 20L11 13L18 13L4 3Z" fill="#a855f7" stroke="#f5f3ff" stroke-width="1.1" stroke-linejoin="round"/>
+    </svg>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="nav-logo">VOID</a>
+    <ul class="nav-links">
+      
+      <li><a href="#hero" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#works" class="nav-link">Works</a></li>
+      <li><a href="#vision" class="nav-link">Vision</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta magnetic-btn">
+      <span>Initiate</span>
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.2"/></svg>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#works">Works</a>
+    <a href="#vision">Vision</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-void-art" id="heroVisual" aria-hidden="true">
+        <img src="assets1/void-2.jpg" alt="" class="hero-void-art__img" width="1920" height="1920" />
+      </div>
+      <div class="hero-particles" id="heroParticles" aria-hidden="true"></div>
+      <div class="hero-fog" aria-hidden="true"></div>
+
+      <div class="hero-micro hero-micro--tl">
+        <span class="micro-label">est. 2087</span>
+        <span class="micro-text">dimensional creative lab</span>
+      </div>
+      <div class="hero-micro hero-micro--tr">
+        <span class="micro-label">coordinates</span>
+        <span class="micro-text">∞ / 0.00 / void</span>
+      </div>
+      <div class="hero-micro hero-micro--bl">
+        <span class="micro-label">signal</span>
+        <span class="micro-text">transmission active</span>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-typography">
+          <h1 class="hero-title hero-title--1">
+            <span class="line"><span class="word" data-word>Born</span></span>
+            <span class="line line--offset"><span class="word serif" data-word>of</span> <span class="word" data-word>Future</span></span>
+          </h1>
+          <h1 class="hero-title hero-title--2">
+            <span class="line"><span class="word outline" data-word>Scarred</span></span>
+            <span class="line line--offset-right"><span class="word" data-word>by the</span> <span class="word serif italic" data-word>Void</span></span>
+          </h1>
+        </div>
+        <div class="hero-visual-spacer" aria-hidden="true"></div>
+        <p class="hero-tagline reveal">
+          We sculpt light from darkness — where luxury meets the infinite.
+        </p>
+      </div>
+
+      <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+        <span class="scroll-text"></span>
+        <span class="scroll-line"></span>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="section-grid">
+        <div class="section-label reveal">
+          <span class="micro-label">about</span>
+          <span class="section-num">01</span>
+        </div>
+        <div class="about-content">
+          <h2 class="section-heading reveal">
+            <span class="heading-serif">Forged</span> in cosmic silence,
+            <span class="heading-outline">we design</span> tomorrow's mythology.
+          </h2>
+          <p class="section-paragraph reveal">
+            VOID is an ultra-premium creative studio at the intersection of fashion,
+            film, and abstract technology. We craft immersive digital experiences that
+            feel cinematic, mysterious, and unmistakably luxurious — born from the void,
+            destined for the future.
+          </p>
+          <div class="about-stats reveal">
+            <div class="stat">
+              <span class="stat-num" data-count="147">0</span>
+              <span class="stat-label">projects launched</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-count="38">0</span>
+              <span class="stat-label">global awards</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-count="12">0</span>
+              <span class="stat-label">dimensions explored</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>VOID STUDIO — LUXURY FUTURISM — CINEMATIC DESIGN — </span>
+          <span>VOID STUDIO — LUXURY FUTURISM — CINEMATIC DESIGN — </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKS -->
+    <section class="section works" id="works">
+      <div class="section-header reveal">
+        <span class="micro-label">selected works</span>
+        <h2 class="section-heading-large">Works</h2>
+        <span class="section-num">02</span>
+      </div>
+      <div class="bento-grid">
+        <article class="bento-card bento-card--large reveal" data-tilt>
+          <div class="card-glow"></div>
+          <div class="card-visual card-visual--1"></div>
+          <div class="card-content">
+            <span class="card-tag">campaign</span>
+            <h3 class="card-title">Nebula Genesis</h3>
+            <p class="card-desc">Immersive fashion film for interstellar couture</p>
+          </div>
+        </article>
+        <article class="bento-card reveal" data-tilt>
+          <div class="card-glow"></div>
+          <div class="card-visual card-visual--2"></div>
+          <div class="card-content">
+            <span class="card-tag">experience</span>
+            <h3 class="card-title">Crystal Echo</h3>
+            <p class="card-desc">WebGL installation</p>
+          </div>
+        </article>
+        <article class="bento-card reveal" data-tilt>
+          <div class="card-glow"></div>
+          <div class="card-visual card-visual--3"></div>
+          <div class="card-content">
+            <span class="card-tag">identity</span>
+            <h3 class="card-title">Aether Brand</h3>
+            <p class="card-desc">Luxury rebrand system</p>
+          </div>
+        </article>
+        <article class="bento-card bento-card--wide reveal" data-tilt>
+          <div class="card-glow"></div>
+          <div class="card-visual card-visual--4"></div>
+          <div class="card-content">
+            <span class="card-tag">motion</span>
+            <h3 class="card-title">Liquid Metal</h3>
+            <p class="card-desc">Cinematic title sequence for sci-fi feature</p>
+          </div>
+        </article>
+        <article class="bento-card reveal" data-tilt>
+          <div class="card-glow"></div>
+          <div class="card-visual card-visual--5"></div>
+          <div class="card-content">
+            <span class="card-tag">3d</span>
+            <h3 class="card-title">Orbital</h3>
+            <p class="card-desc">Abstract product viz</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SHOWCASE -->
+    <section class="section showcase" id="showcase">
+      <div class="showcase-inner">
+        <div class="showcase-visual reveal">
+          <canvas id="showcaseCanvas" class="showcase-canvas"></canvas>
+          <div class="showcase-overlay"></div>
+        </div>
+        <div class="showcase-text reveal">
+          <span class="micro-label">abstract realm</span>
+          <h2 class="section-heading">
+            Energy <span class="heading-serif">crystallized</span>
+            into pure <span class="heading-outline">form</span>
+          </h2>
+          <p class="section-paragraph">
+            Our visual language merges liquid metal aesthetics with cosmic particle
+            systems — every frame engineered for maximum emotional impact.
+          </p>
+          <a href="#contact" class="btn-primary magnetic-btn">
+            <span>Explore the void</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISION -->
+    <section class="section vision" id="vision">
+      <div class="vision-bg-text" aria-hidden="true">VISION</div>
+      <div class="section-grid vision-grid">
+        <div class="section-label reveal">
+          <span class="micro-label">our vision</span>
+          <span class="section-num">03</span>
+        </div>
+        <div class="vision-content reveal">
+          <h2 class="section-heading-large vision-quote">
+            "We don't predict the future — we <em>sculpt</em> it from stardust and shadow."
+          </h2>
+          <div class="vision-pillars">
+            <div class="pillar">
+              <span class="pillar-icon">◈</span>
+              <h3>Cinematic Craft</h3>
+              <p>Every pixel directed like a frame from a sci-fi epic.</p>
+            </div>
+            <div class="pillar">
+              <span class="pillar-icon">◇</span>
+              <h3>Luxury Motion</h3>
+              <p>Animations that breathe — slow, deliberate, hypnotic.</p>
+            </div>
+            <div class="pillar">
+              <span class="pillar-icon">○</span>
+              <h3>Void Aesthetics</h3>
+              <p>Beauty born from emptiness, power from mystery.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section achievements">
+      <div class="achievements-grid">
+        <div class="achievement-card reveal">
+          <span class="achievement-num" data-count="2.4">0</span><span class="achievement-suffix">B+</span>
+          <span class="achievement-label">impressions generated</span>
+        </div>
+        <div class="achievement-card reveal">
+          <span class="achievement-num" data-count="99">0</span><span class="achievement-suffix">%</span>
+          <span class="achievement-label">client retention</span>
+        </div>
+        <div class="achievement-card reveal">
+          <span class="achievement-num" data-count="47">0</span>
+          <span class="achievement-label">countries reached</span>
+        </div>
+        <div class="achievement-card reveal">
+          <span class="achievement-num" data-count="15">0</span>
+          <span class="achievement-label">years ahead</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="contact-inner reveal">
+        <span class="micro-label">initiate contact</span>
+        <h2 class="contact-heading">
+          Enter the <span class="heading-serif">void</span>
+        </h2>
+        <p class="section-paragraph contact-desc">
+          Ready to create something extraordinary? Let's build the impossible together.
+        </p>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <input type="text" placeholder="Name" required aria-label="Name" />
+            <input type="email" placeholder="Email" required aria-label="Email" />
+          </div>
+          <textarea placeholder="Tell us about your vision..." rows="4" required aria-label="Message"></textarea>
+          <button type="submit" class="btn-primary magnetic-btn">
+            <span>Transmit signal</span>
+          </button>
+        </form>
+      </div>
+      <footer class="footer">
+        <div class="footer-brand">VOID</div>
+        <div class="footer-links">
+          <a href="#">Instagram</a>
+          <a href="#">Behance</a>
+          <a href="#">Twitter</a>
+        </div>
+        <p class="footer-copy">© 2026 VOID Studio. All dimensions reserved.</p>
+      </footer>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+  <script src="js/scene.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
